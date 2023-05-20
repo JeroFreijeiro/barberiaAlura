@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #CCCCCC;
+.titulo-principal{
+    padding-left: 50px;
 }
 
-h1{
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 50px;
+}
+
+.titulo-centralizado{
     text-align: center;
 }
 
@@ -22,4 +31,24 @@ em strong{
 
 #mision{
     font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 50px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
 }
