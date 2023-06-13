@@ -285,6 +285,22 @@ td, th{
 }
 
 
+/* ------------ VENTAS ------------ */
+
+
+.cards_ventas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+    background: linear-gradient(#FEFEFE,#888888);
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+
 /* ------------ MEDIA QUERIES ------------ */
 
 
